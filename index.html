@@ -8,112 +8,105 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-    }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2b2f77, #1f3a8a, #0f172a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
 
-    .card {
-      width: 100%;
-      max-width: 420px;
-      background: #ffffff;
-      border-radius: 16px;
-      padding: 22px 20px 26px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-      position: relative;
-      overflow: hidden;
-    }
+  .card {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 22px 20px 26px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+    position: relative;
+  }
 
-    .card::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 6px;
-      background: linear-gradient(90deg, #00c6ff, #0072ff);
-    }
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #e11d48, #1d4ed8);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
 
-    .logo-wrap {
-      text-align: center;
-      margin-bottom: 8px;
-    }
+  .logo-wrap {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
-    .logo-wrap img {
-      max-width: 160px;
-      height: auto;
-    }
+  .logo-wrap img {
+    max-width: 170px;
+    height: auto;
+  }
 
-    h2 {
-      text-align: center;
-      margin: 8px 0 16px;
-      font-weight: 600;
-      color: #1f2933;
-    }
+  h2 {
+    text-align: center;
+    margin: 8px 0 18px;
+    font-weight: 600;
+    color: #1e3a8a;
+  }
 
-    .row {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px 0;
-      border-bottom: 1px dashed #e5e7eb;
-      font-size: 15px;
-    }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dashed #c7d2fe;
+    font-size: 15px;
+  }
 
-    .row:last-child {
-      border-bottom: none;
-    }
+  .label {
+    color: #475569;
+    font-weight: 500;
+  }
 
-    .label {
-      color: #6b7280;
-      font-weight: 500;
-    }
+  .value {
+    color: #0f172a;
+    font-weight: 600;
+    text-align: right;
+    margin-left: 10px;
+    word-break: break-word;
+  }
 
-    .value {
-      color: #111827;
-      font-weight: 600;
-      text-align: right;
-      margin-left: 10px;
-      word-break: break-word;
-    }
+  .status {
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background: #ecfeff;
+    color: #0369a1;
+    border: 1px solid #67e8f9;
+  }
 
-    .status {
-      margin-top: 14px;
-      padding: 10px;
-      border-radius: 8px;
-      text-align: center;
-      font-size: 14px;
-      font-weight: 500;
-      background: #ecfeff;
-      color: #0369a1;
-    }
+  .error {
+    text-align: center;
+    color: #b91c1c;
+    font-weight: 600;
+    background: #fee2e2;
+    padding: 12px;
+    border-radius: 8px;
+  }
 
-    .error {
-      text-align: center;
-      color: #b91c1c;
-      font-weight: 600;
-      background: #fee2e2;
-      padding: 12px;
-      border-radius: 8px;
-    }
-
-    .loading {
-      text-align: center;
-      color: #6b7280;
-    }
-
-    .brand {
-      text-align: center;
-      margin-top: 12px;
-      font-size: 12px;
-      color: #9ca3af;
-    }
-  </style>
+  .brand {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #64748b;
+  }
+</style>
 </head>
 <body>
 
@@ -165,3 +158,4 @@
 
 </body>
 </html>
+
